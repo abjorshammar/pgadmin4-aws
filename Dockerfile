@@ -1,3 +1,3 @@
-FROM docker pull dpage/pgadmin4:latest
+FROM dpage/pgadmin4:latest
 
 COPY ./entrypoint.sh /entrypoint.sh
